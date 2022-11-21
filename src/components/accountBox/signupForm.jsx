@@ -52,7 +52,7 @@ export function SignupForm(props) {
     const 
     {  ...rest } = values;
 
-    const response =await axios.post("http://localhost:8000/api/auth/createuser",rest).catch((err)=>{
+    const response =await axios.post("https://gbmbackend.vercel.app/api/auth/createuser",rest).catch((err)=>{
       if(err && err.response)
         setError(err.response.data.message);
     });
