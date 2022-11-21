@@ -19,7 +19,7 @@ export function LoginForm(props) {
 
   return (
     <BoxContainer>
-      <h3 className="greeting">See you there!!</h3>
+      <h3 className="greeting">Thank you for registering!</h3>
       <Ticket />
     </BoxContainer>
   );
