@@ -20,7 +20,7 @@ export function Ticket({name}) {
                       className="ticket-profile_image"
                     />
                     <div className="ticket-profile_text">
-                      <p className="ticket-profile_name">GBM Ticket</p>
+                      <p className="ticket-profile_name">Your Ticket</p>
                       <p className="ticket-profile_username">
                         <span className="ticket-profile_githubIcon">
                           <img src="./github.svg" alt="" />
